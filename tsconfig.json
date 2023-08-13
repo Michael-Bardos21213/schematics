@@ -1,23 +1,40 @@
 {
-    "compilerOptions": {
-      "target": "ESNext",
-      "module": "ESNext",
-      "moduleResolution": "node",
-      "strict": true,
-      "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true,
-      "esModuleInterop": true,
-      "outDir": "./dist",
-      "declaration": true,
-      "resolveJsonModule": true,
-      "declarationMap": true,
-      "baseUrl": "./",
-      "paths": {
-        "@angular-devkit/schematics/*": ["./node_modules/@angular-devkit/schematics/*"],
-        "@angular-devkit/core/*": ["./node_modules/@angular-devkit/core/*"]
-      }
-    },
-    "include": ["./schematics/**/*.ts"],
-    "exclude": ["node_modules", "dist"]
-  }
-  
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "declaration": true,
+    "resolveJsonModule": true,
+    "declarationMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "@angular-devkit/schematics/*": [
+        "./node_modules/@angular-devkit/schematics/*"
+      ],
+      "@angular-devkit/core/*": [
+        "./node_modules/@angular-devkit/core/*"
+      ],
+      "@angular-devkit/schematics": [
+        "./node_modules/@angular-devkit/schematics"
+      ],
+      "@angular-devkit/schematics/tasks": [
+        "./node_modules/@angular-devkit/schematics/tasks"
+      ],
+      "@angular-devkit/schematics/tasks/*": [
+        "./node_modules/@angular-devkit/schematics/tasks/*"
+      ]
+    }
+  },
+  "include": [
+    "./schematics/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
