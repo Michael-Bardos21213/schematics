@@ -3,8 +3,8 @@
   "schematics": {
     "create-opshub-schematic": {
       "description": "Generate a React project with specific files and dependencies.",
-      "factory": "./schematics/create-opshub-schematic/index#createOpshubSchematic",
-      "schema": "./schematics/create-opshub-schematic/schema.json"
+      "factory": "./schematics/index#createOpshubSchematic",
+      "schema": "./schematics/schema.json"
     }
   }
 }
