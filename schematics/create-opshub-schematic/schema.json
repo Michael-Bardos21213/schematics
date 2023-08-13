@@ -1,21 +1,20 @@
 {
-    "$schema": "../../node_modules/@angular-devkit/schematics/collection-schema.json",
-    "schematics": {
-      "create-opshub-schematic": {
-        "description": "Generate a React project with specific files and dependencies.",
-        "options": {
-          "name": {
-            "type": "string",
-            "description": "The name of the project.",
-            "required": true
-          },
-          "file-path": {
-            "type": "string",
-            "description": "The path to the file to be copied.",
-            "required": true
-          }
+  "$schema": "../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "create-opshub-schematic": {
+      "description": "Generate a React project with specific files and dependencies.",
+      "options": {
+        "name": {
+          "type": "string",
+          "description": "The name of the project.",
+          "required": true
+        },
+        "file-path": {
+          "type": "string",
+          "description": "The path to the file to be copied.",
+          "required": true
         }
       }
     }
   }
-  
+}

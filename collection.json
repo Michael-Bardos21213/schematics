@@ -1,11 +1,10 @@
 {
-    "$schema": "./node_modules/@angular-devkit/schematics/collection-schema.json",
-    "schematics": {
-      "create-opshub-schematic": {
-        "description": "Generate a React project with specific files and dependencies.",
-        "factory": "./schematics/create-opshub-schematic/index#createOpshubSchematic",
-        "schema": "./schematics/create-opshub-schematic/schema.json"
-      }
+  "$schema": "./node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "create-opshub-schematic": {
+      "description": "Generate a React project with specific files and dependencies.",
+      "factory": "./schematics/create-opshub-schematic/index#createOpshubSchematic",
+      "schema": "./schematics/create-opshub-schematic/schema.json"
     }
   }
-  
+}

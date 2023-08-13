@@ -18,15 +18,6 @@
       ],
       "@angular-devkit/core/*": [
         "./node_modules/@angular-devkit/core/*"
-      ],
-      "@angular-devkit/schematics": [
-        "./node_modules/@angular-devkit/schematics"
-      ],
-      "@angular-devkit/schematics/tasks": [
-        "./node_modules/@angular-devkit/schematics/tasks"
-      ],
-      "@angular-devkit/schematics/tasks/*": [
-        "./node_modules/@angular-devkit/schematics/tasks/*"
       ]
     }
   },
